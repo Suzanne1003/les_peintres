@@ -1,0 +1,16 @@
+h1{
+    color: #3F7B79;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #FFF4EA;
+}
+p{
+    color: #90772F;
+    background-color: #FFF4EA;
+    border: 1px solid black;
+    
+}
+.special{
+    color:#DC474F;
+    font-style: italic;
+}
