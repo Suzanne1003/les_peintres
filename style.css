@@ -35,3 +35,9 @@ li a{
 li a:hover{
     background-color: teal;
 }
+/* Essai div et modification sur div*/
+.shadowbox {
+    border: 1px solid #042A38;
+    box-shadow: 8px 8px 5px #760933;
+    background-image: linear-gradient(180deg, #042A38, #ddd 40%, #ccc);
+  }
