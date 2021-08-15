@@ -1,16 +1,37 @@
 h1{
-    color: #3F7B79;
+    color: #760933;
     font-size: 60px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #FFF4EA;
 }
 p{
-    color: #90772F;
-    background-color: #FFF4EA;
+    color: #000;
+    background-color: #F7F5EB;
     border: 1px solid black;
     
 }
 .special{
     color:#DC474F;
     font-style: italic;
+}
+/*barre de navigation*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #042A38;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: teal;
 }
