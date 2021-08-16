@@ -1,26 +1,46 @@
+/* Mise en page titre page*/
 h1{
     color: #760933;
     font-size: 60px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #FFF4EA;
+    text-align: center;
 }
+/*Mise en page tout les paragraphes*/
 p{
     color: #000;
-    background-color: #F7F5EB;
+    background-color: #FFF4EA;
     border: 1px solid black;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+/* Le margin c'est l'espace entre les boîtes */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px; 
+/* Le padding c'est l'espace entre les élément et la boîte*/ 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
+/*Essai attribuer une class pour modification*/
 .special{
     color:#DC474F;
     font-style: italic;
+    text-align: right;
+    margin:0;
+    padding: 0;
 }
 /*barre de navigation*/
 ul{
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding:0;
     overflow: hidden;
     background-color: #042A38;
+    position:sticky;
+    top:0;
+    width: 100%;    
 }
 li{
     float: left;
@@ -35,9 +55,49 @@ li a{
 li a:hover{
     background-color: teal;
 }
+.active {
+    background-color: #04AA6D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
 /* Essai div et modification sur div*/
 .shadowbox {
     border: 1px solid #042A38;
-    box-shadow: 8px 8px 5px #760933;
-    background-image: linear-gradient(180deg, #042A38, #ddd 40%, #ccc);
+    box-shadow: 1px 1px 1px #760933;
+    background-image: linear-gradient(180deg, #FFF4EA, #ddd 10%,#FFF4EA);
   }
+  /*Essai image centrer: mettre un attribut ici displayed*/
+  IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   /*Ajouter une bordure à notre image: 1:la largeur 2:la taille 3:la couleur*/
+    border: 5px solid #760933;
+    /*Essai redimensionner image*/
+    max-width: 500px;
+    height: auto;
+ }
+/*Mettre paragraphe côte à côte*/
+.biographie{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height:100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: auto;
+    padding: auto;
+   
+   
+}
+.un{
+    border-left: thin solid white;
+    
+}
+.deux{
+    border-right: thin solid white;
+    
+}
